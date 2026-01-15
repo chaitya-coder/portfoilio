@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senior WordPress Backend Developer | Chaitya Shah</title>
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="logo">Chaitya<span>.</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content" data-aos="fade-right">
+      <h1>Senior WordPress Backend Developer</h1>
+      <p>
+        Backend-focused WordPress & WooCommerce engineer building
+        scalable plugins, automation workflows, APIs, and performance-optimized systems.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn outline">Hire Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image" data-aos="fade-left">
+      <pre class="code-box"><code class="language-php">
+&lt;?php
+add_action('init', function () {
+  register_post_type('custom_logic', [
+    'public' => true,
+    'supports' => ['title','editor'],
+  ]);
+});
+
+add_action('pre_get_posts', function ($q) {
+  if (!is_admin()) {
+    $q->set('no_found_rows', true);
+  }
+});
+</code></pre>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container about-grid">
+    <div>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+        Senior WordPress Backend Developer with 3+ years of experience designing
+        custom architectures, plugins, WooCommerce logic, REST APIs, automation,
+        database optimization, and security-first systems for production environments.
+      </p>
+    </div>
+
+    <div class="about-cards">
+      <div class="about-card">Backend Architecture</div>
+      <div class="about-card">Custom Plugins</div>
+      <div class="about-card">Automation & APIs</div>
+      <div class="about-card">Performance & Security</div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Core Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">WordPress Core, Hooks & Filters</div>
+      <div class="skill-card">Custom Plugin Development</div>
+      <div class="skill-card">WooCommerce Backend Logic</div>
+      <div class="skill-card">Automation & Business Rules</div>
+      <div class="skill-card">REST APIs & Webhooks</div>
+      <div class="skill-card">MySQL Optimization</div>
+      <div class="skill-card">PHP (OOP)</div>
+      <div class="skill-card">AWS, GCP, Linux, Plesk</div>
+      <div class="skill-card">Security Hardening</div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">WordPress Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="https://reliablemedicines.com" target="_blank">reliablemedicines.com</a>
+        <p>WooCommerce backend plugins, order logic, automation workflows.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://sartobeds.co.uk" target="_blank">sartobeds.co.uk</a>
+        <p>Advanced WooCommerce customization, pricing & performance optimization.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://academy.sustain-cert.com" target="_blank">academy.sustain-cert.com</a>
+        <p>LMS platform with WooCommerce, BuddyBoss & backend automation.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://ecpv.de" target="_blank">ecpv.de</a>
+        <p>MemberPress-based LMS with access control & workflows.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://fcwlaw.com" target="_blank">fcwlaw.com</a>
+        <p>Custom WordPress backend architecture for business website.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://cfea.com" target="_blank">cfea.com</a>
+        <p>Custom theme with Ultimate Member integration.</p>
+      </div>
+    </div>
+
+    <h2 class="section-title" style="margin-top:50px">Shopify Stores</h2>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="https://www.rityamjewels.com/" target="_blank">rityamjewels.com</a>
+        <p>Jewelry Shopify store with custom sections & performance tuning.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://svetaka.in/" target="_blank">svetaka.in</a>
+        <p>Fashion Shopify store with theme customization.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://hurecare.com/" target="_blank">hurecare.com</a>
+        <p>Healthcare brand Shopify site with conversion-focused UX.</p>
+      </div>
+
+      <div class="project-card">
+        <a href="https://asopalav.in/" target="_blank">asopalav.in</a>
+        <p>Catalog-heavy Shopify store with optimized structure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="experience-grid">
+
+      <div class="experience-item">
+        <div class="exp-left">
+          <span>Jan 2025 – Present</span>
+          <h3>Senior WordPress Backend Developer</h3>
+          <p class="company">WebOsmotic</p>
+        </div>
+
+        <div class="exp-right">
+          <p>
+            Led backend development for enterprise WordPress & WooCommerce systems.
+            Built custom plugins, LMS platforms, automation workflows, and REST APIs.
+            Integrated Razorpay, Twilio/WhatsApp, Mailgun, and third-party services.
+          </p>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-left">
+          <span>Sep 2022 – Jan 2025</span>
+          <h3>WordPress & PHP Developer</h3>
+          <p class="company">KamalDhari Infotech</p>
+        </div>
+
+        <div class="exp-right">
+          <p>
+            Developed custom plugins, backend modules, and optimized MySQL queries.
+            Managed AWS & Google Cloud hosting environments with security best practices.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Let’s Work Together</h2>
+    <p>Available for backend-heavy WordPress & Shopify projects.</p>
+    <div class="contact-actions">
+      <a href="mailto:csshah1122@gmail.com" class="btn contact-btn">Email Me</a>
+      <a href="https://www.linkedin.com/in/shah-chaitya-534460209/" target="_blank" class="btn linkedin-btn">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Chaitya Shah. All Rights Reserved.</p>
+</footer>
+
+<script defer src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 900,
+      once: true,
+      offset: 120
+    });
+  });
+</script>
+
+
+</body>
+</html>
